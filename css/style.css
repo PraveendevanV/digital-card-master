@@ -27,12 +27,24 @@ body{
     font-weight: 1000;
     line-height: 24px; /* 133.333% */
 }
+.btn{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 0.5px solid #9C7F72;
+}
+.btn:hover{
+    background-color: #9C7F72;
+    color: #F7F7F7;
+}
 .btn-btn{
     font-family: Poppins;
     font-weight: 500;
     font-size: 18px;
     border-radius: 5px;
     border: 0.5px solid #9C7F72;
+    background: none;
 }
 .btn-btn:hover{
     background-color: #9C7F72;
@@ -172,7 +184,7 @@ h5{
 .copyrights {
     color: #EAE9E9;
     font-family: Lato;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -180,7 +192,7 @@ h5{
 .powered{
     color: #EAE9E9;
     font-family: Lato;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
